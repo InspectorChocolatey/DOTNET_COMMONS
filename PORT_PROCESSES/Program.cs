@@ -1,27 +1,17 @@
-namespace Basics
+namespace DOTNET_COMMONS
 {
     using System;
-    using System.Collections.Generic;
-    
+
     class Program : PortManager
     {
         static void Main(string[] args)
         {
-            List<Port> ports = PortManager.GetNetStatPorts();
-
-            Console.WriteLine();
-
             foreach (Port port in PortManager.GetNetStatPorts())
             {
-                string portname = port.name;
-                string portnumber = port.port_number;
-                string processname = port.process_name;
-                string protocol = port.protocol;
-
-                Console.WriteLine("Portname: {0}", portname);
-                Console.WriteLine("Portnumber: {0}", portnumber);
-                Console.WriteLine("Process Name: {0}", processname);
-                Console.WriteLine("Protocol: {0}", protocol);
+                Console.WriteLine("Portname: {0}", port.name);
+                Console.WriteLine("Portnumber: {0}", port.port_number);
+                Console.WriteLine("Process Name: {0}", port.process_name);
+                Console.WriteLine("Protocol: {0}", port.protocol);
             }
             Wait(); // Once user hits enter, grab the info regarding a specified port number
             string portNumber = "135";
@@ -39,12 +29,9 @@ namespace Basics
         {
             foreach (Port port in PortManager.GetNetStatPorts())
             {
-                if (port.port_number == portNumber)
-                {
+                if (port.port_number == portNumber) {
                     return port;
-                }
-                else
-                {
+                } else {
                     continue;
                 }
             }
