@@ -1,10 +1,10 @@
-namespace Basics
+namespace DOTNET_COMMONS
 {
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
-using System.Text.RegularExpressions;
+    using System;
+    using System.Collections.Generic;
+    using System.Diagnostics;
+    using System.IO;
+    using System.Text.RegularExpressions;
 
     class PortManager
     {
