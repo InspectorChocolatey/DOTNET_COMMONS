@@ -6,7 +6,7 @@ namespace DOTNET_COMMONS
     using System.IO;
     using System.Text.RegularExpressions;
 
-    class PortManager
+    public class PortManager
     {
         // ===============================================
         // The Method That Parses The NetStat Output
