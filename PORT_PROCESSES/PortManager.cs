@@ -1,21 +1,19 @@
 namespace DOTNET_COMMONS
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Diagnostics;
-    using System.IO;
-    using System.Text.RegularExpressions;
+    using System;                                           // System.Convert, *.? 
+    using System.IO;                                      // System.IO.?, *.?
+    using System.Diagnostics;                       // System.Diagnostics.StartInfo, *.Process
+    using System.Collections.Generic;           // System.Collections.Generic.List,
+    using System.Text.RegularExpressions;   // System.Text.RegularExpressions.Regex
 
+    /// <summary>
+    ///     PortManager parses netstat output and returns a list of related port objects
+    /// </summary>    
     public class PortManager
     {
-        // ===============================================
-        // The Method That Parses The NetStat Output
-        // And Returns A List Of Port Objects
-        // ===============================================
         public static List<Port> GetNetStatPorts()
         {
             var Ports = new List<Port>();
-
             try
             {
                 using (Process p = new Process())
@@ -78,9 +76,7 @@ namespace DOTNET_COMMONS
             return procName;
         }
 
-        // ===============================================
-        // The Port Class We're Going To Create A List Of
-        // ===============================================
+        // The door:
         public class Port
         {
             public string name
