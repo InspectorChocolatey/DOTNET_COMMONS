@@ -1,0 +1,239 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header />
+  <s:Body>
+    <SelectAllMtgSetResponse xmlns="http://tempuri.org/">
+      <SelectAllMtgSetResult xmlns:a="http://schemas.datacontract.org/2004/07/MtgDbService" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:MtgSet>
+          <a:SetBasicLands>10</a:SetBasicLands>
+          <a:SetCommons>74</a:SetCommons>
+          <a:SetId>1</a:SetId>
+          <a:SetName>Alpha (Limited Edition)</a:SetName>
+          <a:SetRares>116</a:SetRares>
+          <a:SetReleaseDate>8/5/1993 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>295</a:SetSize>
+          <a:SetUncommons>95</a:SetUncommons>
+        </a:MtgSet>
+        <a:MtgSet>
+          <a:SetBasicLands>15</a:SetBasicLands>
+          <a:SetCommons>74</a:SetCommons>
+          <a:SetId>2</a:SetId>
+          <a:SetName>Beta (Limited Edition)</a:SetName>
+          <a:SetRares>117</a:SetRares>
+          <a:SetReleaseDate>10/1/1993 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>302</a:SetSize>
+          <a:SetUncommons>95</a:SetUncommons>
+        </a:MtgSet>
+        <a:MtgSet>
+          <a:SetBasicLands>0</a:SetBasicLands>
+          <a:SetCommons>26</a:SetCommons>
+          <a:SetId>3</a:SetId>
+          <a:SetName>Arabian Nights</a:SetName>
+          <a:SetRares>0</a:SetRares>
+          <a:SetReleaseDate>12/17/1993 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>78</a:SetSize>
+          <a:SetUncommons>52</a:SetUncommons>
+        </a:MtgSet>
+        <a:MtgSet>
+          <a:SetBasicLands>15</a:SetBasicLands>
+          <a:SetCommons>75</a:SetCommons>
+          <a:SetId>4</a:SetId>
+          <a:SetName>UnlimitedEdition</a:SetName>
+          <a:SetRares>117</a:SetRares>
+          <a:SetReleaseDate>12/1/1993 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>302</a:SetSize>
+          <a:SetUncommons>95</a:SetUncommons>
+        </a:MtgSet>
+        <a:MtgSet>
+          <a:SetBasicLands>0</a:SetBasicLands>
+          <a:SetCommons>28</a:SetCommons>
+          <a:SetId>5</a:SetId>
+          <a:SetName>Antiquities</a:SetName>
+          <a:SetRares>20</a:SetRares>
+          <a:SetReleaseDate>3/4/1994 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>85</a:SetSize>
+          <a:SetUncommons>37</a:SetUncommons>
+        </a:MtgSet>
+        <a:MtgSet>
+          <a:SetBasicLands>0</a:SetBasicLands>
+          <a:SetCommons>75</a:SetCommons>
+          <a:SetId>6</a:SetId>
+          <a:SetName>Revised Edition</a:SetName>
+          <a:SetRares>121</a:SetRares>
+          <a:SetReleaseDate>4/1/1994 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>306</a:SetSize>
+          <a:SetUncommons>95</a:SetUncommons>
+        </a:MtgSet>
+        <a:MtgSet>
+          <a:SetBasicLands>0</a:SetBasicLands>
+          <a:SetCommons>75</a:SetCommons>
+          <a:SetId>7</a:SetId>
+          <a:SetName>Legends</a:SetName>
+          <a:SetRares>121</a:SetRares>
+          <a:SetReleaseDate>6/10/1994 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>310</a:SetSize>
+          <a:SetUncommons>114</a:SetUncommons>
+        </a:MtgSet>
+        <a:MtgSet>
+          <a:SetBasicLands>0</a:SetBasicLands>
+          <a:SetCommons>40</a:SetCommons>
+          <a:SetId>8</a:SetId>
+          <a:SetName>The Dark</a:SetName>
+          <a:SetRares>78</a:SetRares>
+          <a:SetReleaseDate>8/8/1994 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>119</a:SetSize>
+          <a:SetUncommons>1</a:SetUncommons>
+        </a:MtgSet>
+        <a:MtgSet>
+          <a:SetBasicLands>0</a:SetBasicLands>
+          <a:SetCommons>35</a:SetCommons>
+          <a:SetId>9</a:SetId>
+          <a:SetName>Fallen Empires</a:SetName>
+          <a:SetRares>36</a:SetRares>
+          <a:SetReleaseDate>11/15/1994 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>102</a:SetSize>
+          <a:SetUncommons>31</a:SetUncommons>
+        </a:MtgSet>
+        <a:MtgSet>
+          <a:SetBasicLands>20</a:SetBasicLands>
+          <a:SetCommons>121</a:SetCommons>
+          <a:SetId>10</a:SetId>
+          <a:SetName>Ice Age</a:SetName>
+          <a:SetRares>121</a:SetRares>
+          <a:SetReleaseDate>6/1/1995 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>383</a:SetSize>
+          <a:SetUncommons>121</a:SetUncommons>
+        </a:MtgSet>
+        <a:MtgSet>
+          <a:SetBasicLands>15</a:SetBasicLands>
+          <a:SetCommons>121</a:SetCommons>
+          <a:SetId>11</a:SetId>
+          <a:SetName>Fourth Edition</a:SetName>
+          <a:SetRares>121</a:SetRares>
+          <a:SetReleaseDate>5/3/1995 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>378</a:SetSize>
+          <a:SetUncommons>121</a:SetUncommons>
+        </a:MtgSet>
+        <a:MtgSet>
+          <a:SetBasicLands>0</a:SetBasicLands>
+          <a:SetCommons>40</a:SetCommons>
+          <a:SetId>12</a:SetId>
+          <a:SetName>Chronicles</a:SetName>
+          <a:SetRares>46</a:SetRares>
+          <a:SetReleaseDate>7/1/1995 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>116</a:SetSize>
+          <a:SetUncommons>30</a:SetUncommons>
+        </a:MtgSet>
+        <a:MtgSet>
+          <a:SetBasicLands>0</a:SetBasicLands>
+          <a:SetCommons>25</a:SetCommons>
+          <a:SetId>13</a:SetId>
+          <a:SetName>Homelands</a:SetName>
+          <a:SetRares>43</a:SetRares>
+          <a:SetReleaseDate>10/14/1995 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>115</a:SetSize>
+          <a:SetUncommons>47</a:SetUncommons>
+        </a:MtgSet>
+        <a:MtgSet>
+          <a:SetBasicLands>0</a:SetBasicLands>
+          <a:SetCommons>55</a:SetCommons>
+          <a:SetId>14</a:SetId>
+          <a:SetName>Alliances</a:SetName>
+          <a:SetRares>46</a:SetRares>
+          <a:SetReleaseDate>6/10/1996 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>144</a:SetSize>
+          <a:SetUncommons>43</a:SetUncommons>
+        </a:MtgSet>
+        <a:MtgSet>
+          <a:SetBasicLands>20</a:SetBasicLands>
+          <a:SetCommons>110</a:SetCommons>
+          <a:SetId>15</a:SetId>
+          <a:SetName>Mirage</a:SetName>
+          <a:SetRares>110</a:SetRares>
+          <a:SetReleaseDate>10/8/1996 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>350</a:SetSize>
+          <a:SetUncommons>110</a:SetUncommons>
+        </a:MtgSet>
+        <a:MtgSet>
+          <a:SetBasicLands>0</a:SetBasicLands>
+          <a:SetCommons>62</a:SetCommons>
+          <a:SetId>16</a:SetId>
+          <a:SetName>Visions</a:SetName>
+          <a:SetRares>50</a:SetRares>
+          <a:SetReleaseDate>2/3/1997 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>167</a:SetSize>
+          <a:SetUncommons>55</a:SetUncommons>
+        </a:MtgSet>
+        <a:MtgSet>
+          <a:SetBasicLands>20</a:SetBasicLands>
+          <a:SetCommons>165</a:SetCommons>
+          <a:SetId>17</a:SetId>
+          <a:SetName>Fifth Edition</a:SetName>
+          <a:SetRares>132</a:SetRares>
+          <a:SetReleaseDate>3/24/1997 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>449</a:SetSize>
+          <a:SetUncommons>132</a:SetUncommons>
+        </a:MtgSet>
+        <a:MtgSet>
+          <a:SetBasicLands>20</a:SetBasicLands>
+          <a:SetCommons>85</a:SetCommons>
+          <a:SetId>18</a:SetId>
+          <a:SetName>Portal</a:SetName>
+          <a:SetRares>55</a:SetRares>
+          <a:SetReleaseDate>5/1/1997 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>215</a:SetSize>
+          <a:SetUncommons>55</a:SetUncommons>
+        </a:MtgSet>
+        <a:MtgSet>
+          <a:SetBasicLands>0</a:SetBasicLands>
+          <a:SetCommons>62</a:SetCommons>
+          <a:SetId>19</a:SetId>
+          <a:SetName>Weatherlight</a:SetName>
+          <a:SetRares>50</a:SetRares>
+          <a:SetReleaseDate>6/9/1997 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>167</a:SetSize>
+          <a:SetUncommons>55</a:SetUncommons>
+        </a:MtgSet>
+        <a:MtgSet>
+          <a:SetBasicLands>20</a:SetBasicLands>
+          <a:SetCommons>110</a:SetCommons>
+          <a:SetId>20</a:SetId>
+          <a:SetName>Tempest</a:SetName>
+          <a:SetRares>110</a:SetRares>
+          <a:SetReleaseDate>10/14/1997 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>350</a:SetSize>
+          <a:SetUncommons>110</a:SetUncommons>
+        </a:MtgSet>
+        <a:MtgSet>
+          <a:SetBasicLands>0</a:SetBasicLands>
+          <a:SetCommons>55</a:SetCommons>
+          <a:SetId>21</a:SetId>
+          <a:SetName>Stronghold</a:SetName>
+          <a:SetRares>44</a:SetRares>
+          <a:SetReleaseDate>3/2/1998 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>143</a:SetSize>
+          <a:SetUncommons>44</a:SetUncommons>
+        </a:MtgSet>
+        <a:MtgSet>
+          <a:SetBasicLands>0</a:SetBasicLands>
+          <a:SetCommons>55</a:SetCommons>
+          <a:SetId>22</a:SetId>
+          <a:SetName>Exodus</a:SetName>
+          <a:SetRares>44</a:SetRares>
+          <a:SetReleaseDate>6/15/1998 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>143</a:SetSize>
+          <a:SetUncommons>44</a:SetUncommons>
+        </a:MtgSet>
+        <a:MtgSet>
+          <a:SetBasicLands>15</a:SetBasicLands>
+          <a:SetCommons>70</a:SetCommons>
+          <a:SetId>23</a:SetId>
+          <a:SetName>Portal Second Age</a:SetName>
+          <a:SetRares>35</a:SetRares>
+          <a:SetReleaseDate>6/24/1998 12:00:00 AM</a:SetReleaseDate>
+          <a:SetSize>165</a:SetSize>
+          <a:SetUncommons>45</a:SetUncommons>
+        </a:MtgSet>
+      </SelectAllMtgSetResult>
+    </SelectAllMtgSetResponse>
+  </s:Body>
+</s:Envelope>
