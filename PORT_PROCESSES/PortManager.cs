@@ -1,10 +1,10 @@
 namespace DOTNET_COMMONS
 {
-    using System;                                           // System.Convert, *.? 
-    using System.IO;                                      // System.IO.?, *.?
-    using System.Diagnostics;                       // System.Diagnostics.StartInfo, *.Process
-    using System.Collections.Generic;           // System.Collections.Generic.List,
-    using System.Text.RegularExpressions;   // System.Text.RegularExpressions.Regex
+    using System;                           /*  _.Convert,                              */ 
+    using System.IO;                        /*  System.IO.                              */
+    using System.Diagnostics;               /*  System.Diagnostics.StartInfo, _.Process */
+    using System.Collections.Generic;       /*  System.Collections.Generic.List,        */
+    using System.Text.RegularExpressions;   /*  System.Text.RegularExpressions.Regex    */
 
     /// <summary>
     ///     PortManager parses netstat output and returns a list of related port objects
